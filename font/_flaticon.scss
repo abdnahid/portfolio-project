@@ -1,0 +1,76 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 12/09/2020 12:42
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-premium-badge:before { content: "\f100"; }
+.flaticon-laptop:before { content: "\f101"; }
+.flaticon-businessman:before { content: "\f102"; }
+.flaticon-facebook:before { content: "\f103"; }
+.flaticon-twitter:before { content: "\f104"; }
+.flaticon-pinterest:before { content: "\f105"; }
+.flaticon-youtube-logotype:before { content: "\f106"; }
+.flaticon-square-root-of-x-mathematical-signs:before { content: "\f107"; }
+.flaticon-photo-camera:before { content: "\f108"; }
+.flaticon-joomla-logo:before { content: "\f109"; }
+.flaticon-graphic-progression:before { content: "\f10a"; }
+.flaticon-target:before { content: "\f10b"; }
+.flaticon-calendar:before { content: "\f10c"; }
+.flaticon-internet:before { content: "\f10d"; }
+.flaticon-graph-line-screen:before { content: "\f10e"; }
+.flaticon-linked-in-logo-of-two-letters:before { content: "\f10f"; }
+.flaticon-magnifiying-glass:before { content: "\f110"; }
+.flaticon-google-plus-logo:before { content: "\f111"; }
+    
+    $font-Flaticon-premium-badge: "\f100";
+    $font-Flaticon-laptop: "\f101";
+    $font-Flaticon-businessman: "\f102";
+    $font-Flaticon-facebook: "\f103";
+    $font-Flaticon-twitter: "\f104";
+    $font-Flaticon-pinterest: "\f105";
+    $font-Flaticon-youtube-logotype: "\f106";
+    $font-Flaticon-square-root-of-x-mathematical-signs: "\f107";
+    $font-Flaticon-photo-camera: "\f108";
+    $font-Flaticon-joomla-logo: "\f109";
+    $font-Flaticon-graphic-progression: "\f10a";
+    $font-Flaticon-target: "\f10b";
+    $font-Flaticon-calendar: "\f10c";
+    $font-Flaticon-internet: "\f10d";
+    $font-Flaticon-graph-line-screen: "\f10e";
+    $font-Flaticon-linked-in-logo-of-two-letters: "\f10f";
+    $font-Flaticon-magnifiying-glass: "\f110";
+    $font-Flaticon-google-plus-logo: "\f111";

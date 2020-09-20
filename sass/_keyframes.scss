@@ -1,0 +1,28 @@
+@keyframes linemove{
+	0%{
+		left:50%;
+		@include translate(-50%,-50%);
+	}
+	25%{
+		left:100%;
+		@include translate(-100%,-50%);
+	}
+	50%{
+		left:50%;
+		@include translate(-50%,-50%);
+	}
+	75%{
+		left:0%;
+		@include translate(0%,-50%);
+	}
+	100%{
+		left:50%;
+		@include translate(-50%,-50%);
+	}
+}
+
+@keyframes progressanimation{
+	from{
+		width: 0%;
+	}
+}
